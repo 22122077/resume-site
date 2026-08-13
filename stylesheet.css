@@ -1,4 +1,25 @@
 @charset "utf-8";
+
+/*
+  ================= AI / SOURCE USE DECLARATION (COMPLETE THIS) =================
+  A summary declaration is required at the top of EVERY file. Fill in the
+  fields below, and add inline acknowledgements next to any AI/open-source
+  snippet you use.
+
+  Student name:     Mina Armijo
+  Student ID:       22122077
+  File:             stylesheet.css
+
+  Tool/Source:      [e.g. ChatGPT / GitHub Copilot / CSS-Tricks.com / none]
+  Used for:         [e.g. centring the hero image with grid]
+  Extent of use:    [e.g. small snippet suggested, then adapted by hand]
+  Date:             [DD Month 2026]
+
+  If no AI or open-source code was used in this file, replace the above with:
+  "No AI or open-source code was used in this file."
+  ==============================================================================
+*/
+
 body {
     background: greenyellow;
 }
