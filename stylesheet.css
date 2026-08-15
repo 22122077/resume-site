@@ -23,6 +23,7 @@
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: black;
+    padding: 10%;
 }
 
 h1 {
@@ -51,8 +52,37 @@ h1 {
   margin: 0%;
 }
 
+.contact-links a {
+color: coral;
+}
+
 /* Below is drawn from: https://stackoverflow.com/questions/5449872/css-notlast-childafter-selector */
 .contact-links li:not(:last-child)::after{
   content: "|";
   margin-left: 20%;
 }
+
+.main-nav{
+  justify-content: center;
+  display: flex;
+  gap: 3%;
+  list-style: none;
+  padding: 0%;
+  padding-top: 2%;
+  margin: 0%;
+}
+
+.main-nav a {
+  color: black;
+}
+
+.intro-text-left {
+  text-align: right;
+}
+
+.title-spaced-center {
+  text-align: center;
+  letter-spacing: 1.0em;
+}
+
+
