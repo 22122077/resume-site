@@ -85,4 +85,17 @@ color: coral;
   letter-spacing: 1.0em;
 }
 
+/* referenced https://www.w3schools.com/css/css_grid.asp to make */
+.project {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap:40px;
+  padding: 1%;
+}
+
+.project div {
+  column-gap:40px;
+  align-content: center;
+}
+
 
