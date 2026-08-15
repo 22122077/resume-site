@@ -41,3 +41,18 @@ h1 {
   font-size: 200%;
   text-align: center;
 }
+
+.contact-links{
+  justify-content: center;
+  display: flex;
+  gap: 5%;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Below is drawn from: https://stackoverflow.com/questions/5449872/css-notlast-childafter-selector */
+.contact-links li:not(:last-child)::after{
+  content: "|";
+  margin-left: 20%;
+}
