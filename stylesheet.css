@@ -88,14 +88,30 @@ color: coral;
 /* referenced https://www.w3schools.com/css/css_grid.asp to make */
 .project {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
   column-gap:40px;
   padding: 1%;
 }
 
-.project div {
-  column-gap:40px;
-  align-content: center;
+/* looked into https://www.w3schools.com/cssref/pr_grid-row.php to make */
+.project-heading, .project-details{
+  grid-row: 1;
 }
 
+.project-heading {
+  align-self: center;
+}
 
+/* referenced https://www.w3schools.com/cssref/sel_nth-of-type.php and https://www.w3schools.com/cssref/pr_grid-column.php to make */
+.project:nth-of-type(odd) .project-heading {
+  grid-column: 1;
+}
+.project:nth-of-type(odd) .project-details {
+  grid-column:  2/ span 2;
+}
+.project:nth-of-type(even) .project-heading {
+  grid-column: 3;
+}
+.project:nth-of-type(even) .project-details {
+  grid-column: 1/ span 2;
+}
