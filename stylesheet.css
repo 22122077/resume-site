@@ -30,3 +30,14 @@ h1 {
   font-size: 1000%;
   text-align: center;
 }
+
+.job-title {
+  font-family: "Prata", serif;
+  font-size: 200%;
+  text-align: center;
+}
+
+.tag-line {
+  font-size: 200%;
+  text-align: center;
+}
