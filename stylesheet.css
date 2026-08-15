@@ -43,10 +43,9 @@ h1 {
   text-align: center;
 }
 
-.contact-links{
+.contact-links {
   justify-content: center;
   display: flex;
-  gap: 5%;
   list-style: none;
   padding: 0%;
   margin: 0%;
@@ -56,10 +55,11 @@ h1 {
 color: coral;
 }
 
-/* Below is drawn from: https://stackoverflow.com/questions/5449872/css-notlast-childafter-selector */
+/* Below is drawn from: https://stackoverflow.com/questions/5449872/css-notlast-childafter-selector and https://www.w3schools.com/css/css_units.asp */
 .contact-links li:not(:last-child)::after{
   content: "|";
-  margin-left: 20%;
+  margin-left: 1.0rem;
+  margin-right: 1.0rem;
 }
 
 .main-nav{
@@ -118,4 +118,23 @@ color: coral;
 
 #tech-toolkit h3 {
   text-align: center;
+}
+
+.tech-list{
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+.tech-list li:not(:last-child)::after{
+  content: "•";
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* referenced https://www.w3schools.com/cssref/pr_text_white-space.php to make */
+.tech-list li {
+  white-space: nowrap;
 }
