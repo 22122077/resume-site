@@ -151,7 +151,23 @@ color: coral;
 .jobs:nth-of-type(even) {
   grid-column:  2/ span 2;
 }
-
 .jobs:nth-of-type(odd) {
+  grid-column: 1/ span 2;
+}
+
+#education {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  column-gap:40px;
+}
+
+#education > h2 {
+  grid-column: 1/span 3;
+}
+.school:nth-of-type(even) {
+  grid-column:  2/ span 2;
+  text-align: right;
+}
+.school:nth-of-type(odd) {
   grid-column: 1/ span 2;
 }
