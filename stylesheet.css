@@ -30,6 +30,8 @@ h1 {
   font-family: "Prata", serif;
   font-size: 1000%;
   text-align: center;
+  margin-bottom:0%;
+  margin-top: 0%;
 }
 
 .job-title {
@@ -83,6 +85,10 @@ color: coral;
 .title-spaced-center {
   text-align: center;
   letter-spacing: 1.0em;
+  padding: 2rem;
+}
+.title-padding {
+  padding: 1rem 1rem 1rem 0rem;
 }
 
 /* referenced https://www.w3schools.com/css/css_grid.asp to make */
@@ -90,7 +96,8 @@ color: coral;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   column-gap:40px;
-  padding: 1%;
+  padding-top: 2.0rem;
+  padding-bottom: 2.0rem;
 }
 
 /* looked into https://www.w3schools.com/cssref/pr_grid-row.php to make */
@@ -183,4 +190,8 @@ color: coral;
   content: "•";
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+footer {
+  padding: 1rem;
 }
