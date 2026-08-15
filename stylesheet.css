@@ -115,3 +115,7 @@ color: coral;
 .project:nth-of-type(even) .project-details {
   grid-column: 1/ span 2;
 }
+
+#tech-toolkit h3 {
+  text-align: center;
+}
