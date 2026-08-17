@@ -28,7 +28,7 @@ body {
 
 h1 {
   font-family: "Prata", serif;
-  font-size: 1000%;
+  font-size: 10rem;
   text-align: center;
   margin-bottom:0%;
   margin-top: 0%;
@@ -37,12 +37,12 @@ h1 {
 
 .job-title {
   font-family: "Prata", serif;
-  font-size: 200%;
+  font-size: 3rem;
   text-align: center;
 }
 
 .tag-line {
-  font-size: 200%;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -73,7 +73,7 @@ h1 {
 .main-nav{
   justify-content: center;
   display: flex;
-  gap: 3%;
+  gap: 3%; /* only places space between items (b/w rows and cols in flexbox */
   list-style: none;
   padding: 2rem;
   margin: 0%;
