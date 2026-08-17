@@ -19,7 +19,9 @@
   "No AI or open-source code was used in this file."
   ==============================================================================
 */
-
+header {
+  background-color: yellowgreen;
+}
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: black;
@@ -105,6 +107,12 @@ a:hover {
   text-align: center;
   font-style: italic;
 }
+#about {
+  background-color:darkorange;
+}
+#creations {
+  background-color: hotpink;
+}
 /* referenced https://www.w3schools.com/css/css_grid.asp to make */
 .project {
   display: grid;
@@ -137,6 +145,13 @@ a:hover {
   grid-column: 1/ span 2;
 }
 
+#creative-process {
+  background-color:mediumpurple;
+}
+
+#tech-toolkit {
+  background-color: darkorange;
+}
 #tech-toolkit h3 {
   text-align: center;
 }
@@ -164,6 +179,7 @@ a:hover {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:40px;
+  background-color:yellowgreen;
 }
 
 #experience > h2 {
@@ -179,7 +195,8 @@ a:hover {
 #education {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  column-gap:40px;
+  column-gap:60px;
+  background-color: darkturquoise;
 }
 
 #education > h2 {
@@ -210,6 +227,10 @@ a:hover {
   margin-right: 0.5rem;
 }
 
+#beyond-screen {
+  background-color: hotpink;
+}
 footer {
   padding: 1rem;
+  background-color: mediumpurple;
 }
