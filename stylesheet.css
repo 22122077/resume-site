@@ -23,7 +23,16 @@ header {
   background-color: yellowgreen;
   padding: 1rem;
   margin: 1rem 0;
+  position: relative;
 }
+
+/* Below I referenced https://www.w3schools.com/css/css_position.asp to gather ideas for how to do this */
+#self-picture {
+  position: absolute;
+  left: -150px;
+  bottom: 60px;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: black;
@@ -35,14 +44,16 @@ h1 {
   font-family: "Prata", serif;
   font-size: 9rem;
   text-align: center;
-  padding: 1.5rem;
+  padding: .5rem;
   font-weight: lighter;
+  background-color: blueviolet;
 }
 
 .job-title {
   font-family: "Prata", serif;
   font-size: 3rem;
   text-align: center;
+  background-color: blueviolet;
 }
 
 .tag-line {
