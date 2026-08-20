@@ -21,19 +21,21 @@
 */
 header {
   background-color: yellowgreen;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 body {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: black;
-    padding: 10%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+  margin: 0 auto;
+  width: 1000px;
 }
 
 h1 {
   font-family: "Prata", serif;
-  font-size: 10rem;
+  font-size: 9rem;
   text-align: center;
-  margin-bottom:0%;
-  margin-top: 0%;
+  padding: 1.5rem;
   font-weight: lighter;
 }
 
@@ -52,8 +54,9 @@ h1 {
   justify-content: center;
   display: flex;
   list-style: none;
-  padding: 0%;
-  margin: 0%;
+  padding: 1rem 3rem;
+  margin: 1rem;
+  background-color: aqua;
 }
 
 .contact-links a {
@@ -68,8 +71,8 @@ h1 {
 /* Below is drawn from: https://stackoverflow.com/questions/5449872/css-notlast-childafter-selector and https://www.w3schools.com/css/css_units.asp */
 .contact-links li:not(:last-child)::after{
   content: "|";
-  margin-left: 1.0rem;
-  margin-right: 1.0rem;
+  margin: 1rem;
+
 }
 
 .main-nav{
@@ -78,9 +81,12 @@ h1 {
   gap: 3%; /* only places space between items (b/w rows and cols in flexbox */
   list-style: none;
   padding: 2rem;
-  margin: 0%;
+  background-color: green;
 }
 
+.main-nav li {
+  background-color: darkolivegreen;
+}
 .main-nav a {
   color: black;
   text-decoration: none;
@@ -95,12 +101,15 @@ a:hover {
 }
 
 .title-spaced-center {
+  font-family: "Prata", serif;
   text-align: center;
   letter-spacing: 1.0em;
   padding: 2rem;
+  background-color: aquamarine;
 }
 .title-padding {
-  padding: 1rem 1rem 1rem 0rem;
+  background-color: chartreuse;
+  padding: 1rem;
 }
 
 .extra-info {
@@ -109,17 +118,23 @@ a:hover {
 }
 #about {
   background-color:darkorange;
+  padding: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 1rem;
+  margin: 1rem 0;
 }
+
 #creations {
   background-color: hotpink;
+  padding-top: 1rem;
+  margin: 1rem 0;
 }
 /* referenced https://www.w3schools.com/css/css_grid.asp to make */
 .project {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   column-gap:40px;
-  padding-top: 2.0rem;
-  padding-bottom: 2.0rem;
+  padding: 1.5rem;
 }
 
 /* looked into https://www.w3schools.com/cssref/pr_grid-row.php to make */
@@ -128,7 +143,9 @@ a:hover {
 }
 
 .project-heading {
-  align-self: center;
+  align-content: center;
+  text-align: center;
+  background-color: aquamarine;
 }
 
 /* referenced https://www.w3schools.com/cssref/sel_nth-of-type.php and https://www.w3schools.com/cssref/pr_grid-column.php to make */
@@ -147,14 +164,34 @@ a:hover {
 
 #creative-process {
   background-color:mediumpurple;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+#creative-process article {
+  margin: 1rem;
+  padding: 0 1rem;
 }
 
 #tech-toolkit {
   background-color: darkorange;
+  padding: 1rem 0;
+  margin: 1rem 0;
 }
 #tech-toolkit h3 {
   text-align: center;
+  background-color: aqua;
 }
+
+#tech-toolkit article {
+  background-color:crimson;
+}
+
+#tech-toolkit ul {
+background-color:aquamarine;
+padding: 1rem;
+}
+
 
 .tech-list{
   justify-content: center;
@@ -173,6 +210,7 @@ a:hover {
 /* referenced https://www.w3schools.com/cssref/pr_text_white-space.php to make */
 .tech-list li {
   white-space: nowrap;
+  background-color: orange;
 }
 
 #experience {
@@ -180,10 +218,17 @@ a:hover {
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:40px;
   background-color:yellowgreen;
+  margin: 1rem 0;
 }
 
 #experience > h2 {
   grid-column: 1/ span 3;
+}
+
+.jobs {
+  padding: 2rem;
+  background-color: fuchsia;
+  margin: 1rem;
 }
 .jobs:nth-of-type(even) {
   grid-column:  2/ span 2;
@@ -197,14 +242,16 @@ a:hover {
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:60px;
   background-color: darkturquoise;
+  margin: 1rem 0;
 }
 
 #education > h2 {
   grid-column: 1/span 3;
 }
 .school {
-  padding-top: 2.0rem;
-  padding-bottom: 2.0rem;
+  padding: 2rem;
+  background-color: fuchsia;
+  margin: 1rem;
 }
 .school:nth-of-type(even) {
   grid-column:  2/ span 2;
@@ -229,8 +276,13 @@ a:hover {
 
 #beyond-screen {
   background-color: hotpink;
+  padding: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 1rem;
+  margin: 1rem 0;
 }
 footer {
   padding: 1rem;
   background-color: mediumpurple;
+  margin: 1rem 0;
 }
