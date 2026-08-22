@@ -20,7 +20,10 @@
   ==============================================================================
 */
 header {
-  background-color: yellowgreen;
+  background-image: url("docs/orange-paper.png");
+  background-size:cover;
+  background-position: center;
+  background-color: white;
   padding: 1rem;
   margin: 1rem 0;
   position: relative;
@@ -46,14 +49,12 @@ h1 {
   text-align: center;
   padding: .5rem;
   font-weight: lighter;
-  background-color: blueviolet;
 }
 
 .job-title {
   font-family: "Prata", serif;
   font-size: 3rem;
   text-align: center;
-  background-color: blueviolet;
 }
 
 .tag-line {
@@ -67,7 +68,6 @@ h1 {
   list-style: none;
   padding: 1rem 3rem;
   margin: 1rem;
-  background-color: aqua;
 }
 
 .contact-links a {
@@ -92,12 +92,11 @@ h1 {
   gap: 3%; /* only places space between items (b/w rows and cols in flexbox */
   list-style: none;
   padding: 2rem;
-  background-color: green;
 }
 
-.main-nav li {
+/* .main-nav li {
   background-color: darkolivegreen;
-}
+} */
 .main-nav a {
   color: black;
   text-decoration: none;
@@ -116,10 +115,10 @@ a:hover {
   text-align: center;
   letter-spacing: 1.0em;
   padding: 2rem;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .title-padding {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   padding: 1rem;
 }
 
@@ -128,7 +127,10 @@ a:hover {
   font-style: italic;
 }
 #about {
-  background-color:darkorange;
+  background-image: url("docs/frog-hat.png");
+  background-size:cover;
+  background-position: top center;
+  background-color: white;
   padding: 1rem;
   padding-top: 0.1rem;
   padding-bottom: 1rem;
@@ -136,7 +138,10 @@ a:hover {
 }
 
 #creations {
-  background-color: hotpink;
+  background-image: url("docs/party-decor.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
   padding-top: 1rem;
   margin: 1rem 0;
 }
@@ -156,7 +161,7 @@ a:hover {
 .project-heading {
   align-content: center;
   text-align: center;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 /* referenced https://www.w3schools.com/cssref/sel_nth-of-type.php and https://www.w3schools.com/cssref/pr_grid-column.php to make */
@@ -174,7 +179,10 @@ a:hover {
 }
 
 #creative-process {
-  background-color:mediumpurple;
+  background-image: url("docs/green-paper.png");
+  background-size:cover;
+  background-position: center;
+  background-color: white;
   padding: 1rem 0;
   margin: 1rem 0;
 }
@@ -185,21 +193,24 @@ a:hover {
 }
 
 #tech-toolkit {
-  background-color: darkorange;
+  background-image: url("docs/pink-paper.png");
+  background-size:cover;
+  background-position: center;
+  background-color: white;
   padding: 1rem 0;
   margin: 1rem 0;
 }
 #tech-toolkit h3 {
   text-align: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
-#tech-toolkit article {
+/* #tech-toolkit article {
   background-color:crimson;
-}
+} */
 
 #tech-toolkit ul {
-background-color:aquamarine;
+/* background-color:aquamarine; */
 padding: 1rem;
 }
 
@@ -221,14 +232,17 @@ padding: 1rem;
 /* referenced https://www.w3schools.com/cssref/pr_text_white-space.php to make */
 .tech-list li {
   white-space: nowrap;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 #experience {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:40px;
-  background-color:yellowgreen;
+  background-image: url("docs/party-table.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
   margin: 1rem 0;
 }
 
@@ -238,7 +252,7 @@ padding: 1rem;
 
 .jobs {
   padding: 2rem;
-  background-color: fuchsia;
+  /* background-color: fuchsia; */
   margin: 1rem;
 }
 .jobs:nth-of-type(even) {
@@ -252,7 +266,10 @@ padding: 1rem;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:60px;
-  background-color: darkturquoise;
+  background-image: url("docs/kewpie-frog.png");
+  background-size:cover;
+  background-position: center;
+  background-color: white;
   margin: 1rem 0;
 }
 
@@ -261,7 +278,7 @@ padding: 1rem;
 }
 .school {
   padding: 2rem;
-  background-color: fuchsia;
+  /* background-color: fuchsia; */
   margin: 1rem;
 }
 .school:nth-of-type(even) {
@@ -286,14 +303,20 @@ padding: 1rem;
 }
 
 #beyond-screen {
-  background-color: hotpink;
+  background-image: url("docs/little-guy-3.png");
+  background-size:cover;
+  background-position: center;
+  background-color: white;
   padding: 1rem;
   padding-top: 0.1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
   margin: 1rem 0;
 }
 footer {
-  padding: 1rem;
-  background-color: mediumpurple;
+  padding: .1rem;
+  background-image: url("docs/orange-paper.png");
+  background-size:cover;
+  background-position: center;
+  background-color: white;
   margin: 1rem 0;
 }
