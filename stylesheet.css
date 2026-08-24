@@ -63,6 +63,7 @@ header {
   position: absolute;
   left: -150px;
   bottom: 60px;
+  z-index: 1;
 }
 
 body {
@@ -100,12 +101,12 @@ h1 {
 }
 
 .contact-links a {
-  color: coral;
+  color: rgb(237, 86, 31);
   text-decoration: none;
 }
 
 .contact-links a:hover {
-  text-decoration: underline wavy hotpink;
+  text-decoration: underline wavy rgb(230, 168, 199);
 }
 
 /* Source: StackOverflow "CSS :not(:last-child):after selector" & W3 Schools "CSS The position Property" 
@@ -123,6 +124,8 @@ h1 {
   gap: 3%; /* only places space between items (b/w rows and cols in flexbox */
   list-style: none;
   padding: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 /* .main-nav li {
