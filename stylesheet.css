@@ -48,7 +48,7 @@
 /* Source: W3 Schools "CSS Background Image" (https://www.w3schools.com/css/css_background_image.asp) 
 — gathered ideas for setting background images throughout, implemented myself */
 header {
-  background-image: url("docs/orange-paper.png");
+  background-image: url("images/orange-paper.png");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -158,7 +158,7 @@ a:hover {
   font-style: italic;
 }
 #about {
-  background-image: url("docs/frog-hat.png");
+  background-image: url("images/frog-hat.png");
   background-size:cover;
   background-position: top center;
   background-color: white;
@@ -169,7 +169,7 @@ a:hover {
 }
 
 #creations {
-  background-image: url("docs/party-decor.png");
+  background-image: url("images/party-decor.png");
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -215,7 +215,7 @@ a:hover {
 }
 
 #creative-process {
-  background-image: url("docs/green-paper.png");
+  background-image: url("images/green-paper.png");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -229,7 +229,7 @@ a:hover {
 }
 
 #tech-toolkit {
-  background-image: url("docs/pink-paper.png");
+  background-image: url("images/pink-paper.png");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -276,7 +276,7 @@ padding: 1rem;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:40px;
-  background-image: url("docs/party-table.png");
+  background-image: url("images/party-table.png");
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -303,7 +303,7 @@ padding: 1rem;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:60px;
-  background-image: url("docs/kewpie-frog.png");
+  background-image: url("images/kewpie-frog.png");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -340,7 +340,7 @@ padding: 1rem;
 }
 
 #beyond-screen {
-  background-image: url("docs/little-guy.png");
+  background-image: url("images/little-guy.png");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -351,7 +351,7 @@ padding: 1rem;
 }
 footer {
   padding: .1rem;
-  background-image: url("docs/orange-paper.png");
+  background-image: url("images/orange-paper.png");
   background-size:cover;
   background-position: center;
   background-color: white;
