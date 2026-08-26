@@ -42,13 +42,24 @@
   Extent of use:    Used for ideas and then implemented my own code
   Date:             15 August 2026
 
+  Tool/Source:      Web Code Tools
+  Used for:         H1, H2, and H3 animation
+  Extent of use:    Picked animation I wanted and used the generated code they provided
+  Date:             26 August 2026
+
+  Tool/Source:      Favicon.io
+  Used for:         Favicon setting
+  Extent of use:    Uploaded edited png and then downloaded favicons and  used code provided
+  Date:             26 August 2026
+
+
   ==============================================================================
 */
 
 /* Source: W3 Schools "CSS Background Image" (https://www.w3schools.com/css/css_background_image.asp) 
 — gathered ideas for setting background images throughout, implemented myself */
 header {
-  background-image: url("images/orange-paper.png");
+  background-image: url("images/orange-paper.jpg");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -79,17 +90,20 @@ h1 {
   text-align: center;
   padding: .5rem;
   font-weight: lighter;
+  animation: myAnimLeft 2s ease-in-out 0s 1 normal forwards;
 }
 
 .job-title {
   font-family: "Prata", serif;
   font-size: 3rem;
   text-align: center;
+  animation: myAnimRight 2s ease-in-out 0s 1 normal forwards;
 }
 
 .tag-line {
   font-size: 2rem;
   text-align: center;
+  animation: myAnim 3s ease-in-out 0s 1 normal forwards;
 }
 
 .contact-links {
@@ -156,10 +170,6 @@ a:hover {
   padding: 1rem;
 }
 
-.extra-info {
-  text-align: center;
-  font-style: italic;
-}
 #about {
   background-image: url("images/frog-hat.png");
   background-size:cover;
@@ -218,7 +228,7 @@ a:hover {
 }
 
 #creative-process {
-  background-image: url("images/green-paper.png");
+  background-image: url("images/green-paper.jpg");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -232,7 +242,7 @@ a:hover {
 }
 
 #tech-toolkit {
-  background-image: url("images/pink-paper.png");
+  background-image: url("images/pink-paper.jpg");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -306,7 +316,7 @@ padding: 1rem;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   column-gap:60px;
-  background-image: url("images/kewpie-frog.png");
+  background-image: url("images/kewpie-frog.jpg");
   background-size:cover;
   background-position: center;
   background-color: white;
@@ -354,9 +364,47 @@ padding: 1rem;
 }
 footer {
   padding: .1rem;
-  background-image: url("images/orange-paper.png");
+  background-image: url("images/orange-paper.jpg");
   background-size:cover;
   background-position: center;
   background-color: white;
   margin: 1rem 0;
+}
+
+/* Animation Styles */
+
+/* Sources: Web Code Tools "Keyframe Animation  CSS Generator" (https://webcode.tools/css-generator/keyframe-animation) 
+— For all below, I picked the animation I wanted and used the generated code they provided */
+@keyframes myAnimLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes myAnimRight {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
