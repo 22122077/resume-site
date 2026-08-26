@@ -57,6 +57,10 @@
   Extent of use:    Used code example given
   Date:             26 August 2026
 
+  Tool/Source:      Design.dev
+  Used for:         Making a custom cursor
+  Extent of use:    Used code generated after uploading png
+  Date:             26 August 2026
 
   ==============================================================================
 */
@@ -65,6 +69,12 @@
 — Used code example given to make scroll smooth */
 html {
   scroll-behavior: smooth;
+}
+
+/* Source: Design.dev "Custom CSS Cursor Generator" (https://design.dev/tools/custom-cursor-generator/) 
+— Used code generated and tweaked x and y values */
+html, body, a {
+  cursor: url('images/little-guy-cursor.png') 10 10, auto;
 }
 
 /* Source: W3 Schools "CSS Background Image" (https://www.w3schools.com/css/css_background_image.asp) 
