@@ -52,9 +52,20 @@
   Extent of use:    Uploaded edited png and then downloaded favicons and  used code provided
   Date:             26 August 2026
 
+  Tool/Source:      W3 Schools
+  Used for:         To make the scroll smooth
+  Extent of use:    Used code example given
+  Date:             26 August 2026
+
 
   ==============================================================================
 */
+
+/* Source: W3 Schools "CSS scroll-behavior Property" (https://www.w3schools.com/cssref/pr_scroll-behavior.php) 
+— Used code example given to make scroll smooth */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Source: W3 Schools "CSS Background Image" (https://www.w3schools.com/css/css_background_image.asp) 
 — gathered ideas for setting background images throughout, implemented myself */
@@ -170,6 +181,21 @@ a:hover {
   padding: 1rem;
 }
 
+.back-to-top{
+  text-decoration: none;
+  position:absolute;
+  top: 2rem;
+  right: 1rem;
+  color: black;
+  font-size: 2rem;
+  opacity: .1;
+}
+
+.back-to-top:hover {
+  opacity: .75;
+  text-decoration: none;
+}
+
 #about {
   background-image: url("images/frog-hat.png");
   background-size:cover;
@@ -188,6 +214,7 @@ a:hover {
   background-color: white;
   padding-top: 1rem;
   margin: 1rem 0;
+  position: relative;
 }
 
 /* Source: W3 Schools "CSS Grid Layout" (https://www.w3schools.com/css/css_grid.asp) 
@@ -234,6 +261,7 @@ a:hover {
   background-color: white;
   padding: 1rem 0;
   margin: 1rem 0;
+  position: relative;
 }
 
 #creative-process article {
@@ -248,6 +276,7 @@ a:hover {
   background-color: white;
   padding: 1rem 0;
   margin: 1rem 0;
+  position: relative;
 }
 #tech-toolkit h3 {
   text-align: center;
@@ -294,6 +323,7 @@ padding: 1rem;
   background-position: center;
   background-color: white;
   margin: 1rem 0;
+  position: relative;
 }
 
 #experience > h2 {
@@ -321,6 +351,7 @@ padding: 1rem;
   background-position: center;
   background-color: white;
   margin: 1rem 0;
+  position: relative;
 }
 
 #education > h2 {
