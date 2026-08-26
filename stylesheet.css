@@ -183,11 +183,12 @@ a:hover {
 
 .back-to-top{
   text-decoration: none;
-  position:absolute;
-  top: 2rem;
-  right: 1rem;
+  position:fixed;
+  top: 1rem;
+  left: 50%;
+  margin-left: 650px;
   color: black;
-  font-size: 2rem;
+  font-size: 4rem;
   opacity: .1;
 }
 
@@ -214,7 +215,6 @@ a:hover {
   background-color: white;
   padding-top: 1rem;
   margin: 1rem 0;
-  position: relative;
 }
 
 /* Source: W3 Schools "CSS Grid Layout" (https://www.w3schools.com/css/css_grid.asp) 
@@ -261,7 +261,6 @@ a:hover {
   background-color: white;
   padding: 1rem 0;
   margin: 1rem 0;
-  position: relative;
 }
 
 #creative-process article {
@@ -276,7 +275,6 @@ a:hover {
   background-color: white;
   padding: 1rem 0;
   margin: 1rem 0;
-  position: relative;
 }
 #tech-toolkit h3 {
   text-align: center;
@@ -323,7 +321,6 @@ padding: 1rem;
   background-position: center;
   background-color: white;
   margin: 1rem 0;
-  position: relative;
 }
 
 #experience > h2 {
@@ -351,7 +348,6 @@ padding: 1rem;
   background-position: center;
   background-color: white;
   margin: 1rem 0;
-  position: relative;
 }
 
 #education > h2 {
